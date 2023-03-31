@@ -82,11 +82,19 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 20%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    text-align: center;
 }
 /* grouped lead,brand,cost into group to make it look cleaner since the changes apply to these 3 benefits*/
+.benefit-group h3{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+
+
 .benefit-group img,
 .benefit-group img,
 .benefit-group img {
@@ -94,6 +102,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
     margin-bottom: 60px;
+    text-align: center;
 }
   /* organized the code here so that it wasnt all over the place, since changes apply to these 3 items as opposed to all 3 sections having the same code*/
 
@@ -106,6 +115,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    font-size: 36px;
+    
 }
  /* organized them together again since the max-height applies to all 3 instead of writing the same thing for all 3*/ 
 .search-engine-optimization img ,
@@ -113,13 +124,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
 /* organized it together so you dont have to write it for each one seperately*/
-.search-engine-optimization, 
-.online-reputation-management ,
-.social-media-marketing  {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
  /* left footer as it is but changed it in html since it was not in semantic*/
 .footer {
     padding: 30px;
