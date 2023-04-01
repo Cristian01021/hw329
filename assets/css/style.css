@@ -78,6 +78,7 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom: 30px;
     padding: 20px;
     clear: both;
     float: right;
@@ -86,6 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     text-align: center;
+
 }
 /* grouped lead,brand,cost into group to make it look cleaner since the changes apply to these 3 benefits*/
 .benefit-group h3{
@@ -93,7 +95,9 @@ p {
     text-align: center;
 }
 
-
+.benefit-group h2{
+    text-align: center;
+}
 
 .benefit-group img,
 .benefit-group img,
@@ -117,12 +121,15 @@ p {
     color: #ffffff;
     font-size: 36px;
     
+    
 }
  /* organized them together again since the max-height applies to all 3 instead of writing the same thing for all 3*/ 
 .search-engine-optimization img ,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 /* organized it together so you dont have to write it for each one seperately*/
